@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--===============================================================================================-->
+</head>
+<body style="background-color: #ffffff;">
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="login100-more" style="background-image: url('img/header.jpg');"></div>
+
+			<div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
+				<form class="login100-form validate-form">
+					<span class="align" class="login100-form-title p-b-59">
+						Sign in
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100">User Name</span>
+						<input class="input100" type="text" name="name" placeholder="Name...">
+						<span class="focus-input100"></span>
+					</div>
+
+					
+
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<span class="label-input100">Password</span>
+						<input class="input100" type="password" name="pass" placeholder="*************">
+						<span class="focus-input100"></span>
+					</div>
+
+				
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button >
+                <a class="login100-form-btn" href="Home.html"> Sign in </a>
+								
+							</button>
+						</div>
+
+						<a href="signup.html" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
+							Sign Up
+							<i class="fa fa-long-arrow-right m-l-5"></i>
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="./img/palm-tree.png">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="bootstrap/js/bootstrap.js"></script>
+ 
+</head>
+<body>
+
+
+ 
+         Navbar content -->
+           <!-- Navbar content -->
+           <!-- <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/log.png" id="log"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="form.html">Feedback</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div> -->
+
+          <!-- <div  class = "row">
+            
+              <img src="./img/header.jpg" class="col-lg-7" class="col-sm-7">
+            
+            
+            <div class="col-lg-1" class="col-sm-1"></div>
+            <div class="col-lg-4" class="col-sm-4">
+              
+
+                <fieldset class="Field" >
+                    <legend style="color: rgb(240, 111, 25);" > User login </legend>
+                    <div >
+                    <label class="form__label"> First Name </label> 
+                    <br>
+                    <input type = "text"  placeholder = "your Name " 
+                    name = "firstname" maxlength = "30"  class="form__field">
+                    </div> <br>
+                    <div>
+                    <label class="form__label"> Password </label>
+                    <br>
+                    <input type = "password" placeholder = "your password "  name = "pass" class="form__field" > 
+                    </div>
+                    <button type="submit" class="btn btn-sm btn-outline-secondary" id="loginn"> <a href="https://learngis2.maps.arcgis.com/apps/webappviewer/index.html?id=a68b27f9666448d5974f9406c667dd30" target="blank" id="login" >  Login </a></button>
+                </fieldset>
+                -->
+
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <!-- <div class="fadeIn first">
+        <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon">
+      </div> -->
+  
+      <!-- Login Form -->
+      <!-- <form>
+        <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+        <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+        <input type="submit" class="fadeIn fourth" value="Log In">
+      </form>
+   -->
+      <!-- Remind Passowrd -->
+      <!-- <div id="formFooter">
+        <a class="underlineHover" href="#">Forgot Password?</a>
+      </div> -->
+  
+    
+            <!-- </div>
+</body>
+</html> --> 

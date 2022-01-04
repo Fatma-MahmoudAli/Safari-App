@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Guest house </title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="icon" href="./img/palm-tree.png">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.20/esri/themes/light/main.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  
+    <script src="https://js.arcgis.com/4.20/"></script>
+    
+  
+    
+<!--===============================================================================================-->
+</head>
+<body >
+	<div class="container-fluid">
+	<div class = "row" >
+
+		<div class="col-lg-8" class="col-sm-7" >
+			  <img src="./img/header.jpg" >
+		</div>
+
+		<div class="col-lg-4" class="col-sm-5" class="head1" >
+			<div >
+				<fieldset>
+					<legend  class="align"> sign in  </legend>
+
+					<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100">Full Name</span>
+						<br/>
+						<input class="input100" type = "text" id="name" placeholder = "Enter your Name"  maxlength = "50" name = "First Name" tabindex="1"/>
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100">price</span>
+						<br/>
+						<input class="input100" type = "text" id="price" placeholder = " your price"  maxlength = "50" name = "First Name" tabindex="1"/>
+						<span class="focus-input100"></span>
+					</div>
+					
+					
+
+					
+					<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100">phone</span>
+						<br/>
+						<input class="input100" type = "text" id="Phone_No" placeholder = "Enter your phone" size ="40" maxlength = "50" name = "last Name"/>
+						<span class="focus-input100"></span>
+					</div>
+					<br/> 
+					
+					<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100">City</span>
+						<input class="input100" type = "text" id="city" placeholder = "city" size ="40" maxlength = "50" name = "last Name"/>
+
+						
+						<!-- <select class="input100"  class="selectpicker" >
+							<option>Siwa</option>
+							<option>Fayoum</option>
+							<option>El-Waadi</option>
+						  </select> -->
+						<span class="focus-input100"></span>
+					</div>
+					<br/> 
+
+
+					<!-- <div>
+						<label class="car" >Phone_No</label>
+						<br/>
+						<input  class="input100" type = "text" id="Phone_No" placeholder = "Enter password" size = "40" maxlength = "20" />
+					</div>
+					<br/> -->
+					<!-- <div>
+						<label class="car" >city</label>
+						<br/>
+						<input class="input100" type = "text" id="city" placeholder = "Enter password" size = "40" maxlength = "20" />
+					</div> -->
+				</fieldset>
+			
+				<!-- <button id="submit">submit</button> -->
+				
+				<div class="wrap-login100-form-btn" id="sumit">
+					<div class="login100-form-bgbtn"></div>
+				
+						<button id="submit" class="login100-form-btn" > Locate</button> 
+					
+				</div>
+				<div class="wrap-login100-form-btn">
+					<div class="login100-form-bgbtn"></div>
+				
+						<button id="submit" class="login100-form-btn" >	<a href="Home.html" class="login100-form-btn"  class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
+							login in
+							
+						</a></button> 
+						
+					
+				</div>
+
+			</div> 
+		</div>
+			
+			
+		  
+		  </div>
+
+		</div>
+	
+
+			
+		<script src="./js/Application.js"></script>
+	
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Guest House</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./img/palm-tree.png">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://js.arcgis.com/4.20/esri/themes/light/main.css" />
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://js.arcgis.com/4.20/esri/themes/light/main.css" />
+    
+    <link rel="stylesheet" href="APIS.CSS">
+    <script src="https://js.arcgis.com/4.20/"></script>
+    
+  
+    <script src="https://js.arcgis.com/4.20/"></script>
+<!===============================================================================================-->
+<!-- </head>
+<body style="background-color: #999999;">
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="login100-more" style="background-image: url('img/header.jpg');"></div>
+
+			<div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
+				<form class="login100-form validate-form">
+					<span class="align" class="login100-form-title p-b-59">
+						Sign Up
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<span class="label-input100"> House Name</span>
+						<input class="input100" type="text" name="name" placeholder="Name...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<span class="label-input100"> Night price </span>
+						<input class="input100" type="text" name="email" placeholder="price...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Username is required">
+						<span class="label-input100">phone number</span>
+						<input class="input100" type="text" name="username" placeholder="phone number...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<span class="label-input100">city</span>
+						<input class="input100" type="text" name="pass" placeholder="city">
+						<span class="focus-input100"></span>
+					</div>
+
+					
+
+				
+
+					<div class="container-login100-form-btn" >
+						<div class="wrap-login100-form-btn" id="sumit" >
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn" id="submit">Locate</button> 
+							
+						
+						</div> 
+					</div>
+
+			
+
+						<div class="container-login100-form-btn">
+							<div class="wrap-login100-form-btn">
+								<div class="login100-form-bgbtn"></div>
+								
+								<button >
+									<a class="login100-form-btn" href="Home.html"> Log in </a>
+													
+								</button>
+							
+							</div> -->
+						<!-- </div> -->
+	
+
+					
+					<!-- </div>
+				</form>
+				
+				
+			</div>
+		</div>
+	
+	</div>
+	<script src="./js/Application.js"></script> 
+
+</body>
+</html> --> 

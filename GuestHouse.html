@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuestHouse</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.20/esri/themes/light/main.css" />
+    <link rel="icon" href="./img/palm-tree.png">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="bootstrap/js/bootstrap.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+                integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+                crossorigin=""/>
+                <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+                integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+                crossorigin=""></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://js.arcgis.com/4.20/"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/log.png" id="log"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="Home.html" id="List" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://learngis2.maps.arcgis.com/apps/webappviewer/index.html?id=596dddc3612847c9b5120eb0faf2ba9f" id="List">Application</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="List">
+                        Cities
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="siwa.html" id="List" >Siwa</a></li>
+                        <li><a class="dropdown-item" href="fayoum.html" id="List" >Fayoum</a></li>
+                     
+                        <li><a class="dropdown-item" href="waadi.html" id="List" >Elwaadi Eljaded</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="List">
+                        services
+                      </a>
+                      <ul  class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                        <li><a class="dropdown-item" href="https://learngis2.maps.arcgis.com/apps/dashboards/6ddadf1b4c6c40dbae596c944363a545" id="List" > Tour Guide </a></li>
+                        <li><a class="dropdown-item" href="Booking.html" id="List" >Car</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="List">
+                       Accomdation
+                      </a>
+                      <ul  class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                        <li><a class="dropdown-item" href="https://learngis2.maps.arcgis.com/apps/dashboards/6ddadf1b4c6c40dbae596c944363a545" id="List" > Hotel </a></li>
+                        <li><a class="dropdown-item" href="Booking.html" id="List" > GuestHouse</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="form.html" id="List" >Feedback</a>
+                    </li>
+                    
+                  </ul>
+                  <form class="d-flex">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <!-- <button class="btn btn-outline-success"  onclick=`window.location.href="./";`>
+                      Booking Now
+                    </button> -->
+                    <button class="btn btn-outline-success" type="submit" > <a href="booking.html" target="blank" id="Booking"> Booking </a></button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+
+        <div class = "row" >
+            <div class="col-lg-12" class="col-sm-12" >
+        <div id="mapdiv" > </div>
+    </div>
+</div>
+</div>
+    
+   
+    <script src="./js/Application.js"></script>
+</body>
+</html>
